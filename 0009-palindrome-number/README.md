@@ -45,12 +45,14 @@ For the odd-length number 121, we ignore the middle digit:
 
 Since x == rev / 10, the function returns true.
 </pre>
+
 <p>&nbsp;</p>
+
 <pre>
-	<h2>Complexity Analysis</h2>
-	<strong>Time complexity:</strong> O(log<sub>10</sub>x) — we process approximately half the digits.
+<h2>Complexity Analysis</h2>
+<strong>Time complexity:</strong> O(log<sub>10</sub>x) — we process approximately half the digits.
 	
-	<strong>Space complexity:</strong> O(1) — we use only a constant amount of extra memory.
+<strong>Space complexity:</strong> O(1) — we use only a constant amount of extra memory.
 	
-	This solution satisfies the follow-up requirement: no string conversion is used.
+This solution satisfies the follow-up requirement: no string conversion is used.
 </pre>
